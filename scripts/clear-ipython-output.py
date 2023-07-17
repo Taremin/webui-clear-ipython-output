@@ -70,6 +70,7 @@ class ClearOutput(scripts.Script):
         if in_ipython is None:
             return
         
+        print("clear output")
         clear_output(wait=False)
         
         
